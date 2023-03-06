@@ -1,0 +1,50 @@
+.navbar {
+    position: relative;
+    z-index: 10;
+    color: white;
+    display: flex;
+    padding: 2rem 3rem;
+    align-items: center;
+}
+
+.navbar-menus {
+    margin: auto;
+    font-size: large;
+}
+
+.navbar-menus > * {
+    margin: 2rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.navbar-menus > *:hover {
+    background-color: var(--color-pink);
+}
+
+.navbar-sosmed {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 95%;
+    top: 10%;
+}
+
+.navbar-sosmed > * {
+    margin: 1.5rem;
+    transition: 0.3s;
+}
+
+.navbar-sosmed > *:hover {
+    background-color: var(--color-pink);
+    cursor: pointer;
+}
+
+.navbar-logo {
+    transition: 0.3s;
+}
+
+.navbar-logo:hover {
+    background-color: var(--color-pink);
+    cursor: pointer;
+}

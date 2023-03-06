@@ -1,0 +1,62 @@
+.landing-page {
+    height: 800px;
+    position: relative;
+    overflow: hidden;
+}
+
+.landing-page::before {
+    content: '';
+    background-image: url('../../assets/landing.png');
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+}
+
+.landing-page-main {
+    position: relative;
+    padding: 0 8rem;
+    top: 20%;
+}
+
+.landing-page-main h1 {
+    font-size: 4rem;
+    font-weight: medium;
+    background-color: var(--color-pinkGray);
+    color: var(--color-pink);
+    width: fit-content;
+    padding: 0.8rem 5rem;
+}
+
+.landing-page-main h2 {
+    color: var(--color-white);
+    font-size: 2rem;
+    font-weight: 100;
+    position: relative;
+    left: 10%;
+    margin: 3rem 0;
+}
+
+.book-now-button,
+.explore-button {
+    border: none;
+    padding: 1rem 3rem;
+    margin-right: 4rem;
+    position: relative;
+    left: 50%;
+    cursor: pointer;
+}
+
+.book-now-button {
+    background-color: var(--color-pink);
+    color: var(--color-white);
+}
+
+.explore-button {
+    background-color: var(--color-white);
+    color: var(--color-pink);
+}

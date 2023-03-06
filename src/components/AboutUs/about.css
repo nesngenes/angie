@@ -1,0 +1,54 @@
+.about-page {
+    background-color: var(--color-pinkGray);
+    padding: 6rem 8rem;
+}
+
+.about-heading {
+    text-align: center;
+}
+
+.about-content {
+    position: relative;
+    overflow: hidden;
+    height: 110vh;
+}
+
+.about-us {
+    background-color: var(--color-white);
+    width: 500px;
+    padding: 4rem;
+    color: var(--color-dark-brown);
+    position: absolute;
+    top: 58%;
+    left: 45%;
+    box-shadow: 20px 20px 0.7em;
+
+}
+
+.about-line {
+    width: 150px;
+    height: 2px;
+    background-color: var(--color-pink);
+    margin-bottom: 1rem;
+}
+
+.about-us h2 {
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.about-us p {
+    font-size: 1.5rem;
+}
+
+.rose-massage {
+    position: absolute;
+    left: 14%;
+    top: 25%;
+}
+
+.rose-bath {
+    left: 50%;
+    top: 20%;
+    position: absolute;
+}

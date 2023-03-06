@@ -1,0 +1,71 @@
+.services-page {
+    background-color: var(--color-pinkLightGray);
+    color: var(--color-dark-brown);
+    position: relative;
+}
+
+.services-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    place-items: center;
+}
+
+.service {
+    padding: 0;
+    margin: 0;
+    width: 60%;
+}
+
+.services-page h1 {
+    padding: 6rem 11rem;
+    width: 30%;
+    color: var(--color-dark-brown);
+}
+
+.services-page button {
+    width: 60%;
+    border: none;
+    padding: 2rem 3rem;
+    font-size: 2rem;
+    margin-left: 4rem;
+}
+
+.all-service-button {
+    color: var(--color-dark-brown);
+    background-color: white;
+    position: relative;
+    top: 50%;
+}
+
+.appoinment-button {
+    background-color: var(--color-dark-brown);
+    color: white;
+    position: relative;
+    top: -80%;
+}
+
+.service > * {
+    margin-bottom: 2rem;
+}
+
+.service h3 {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.service p {
+    width: 40%;
+    margin-left: 3rem;
+}
+
+.batu-bunga {
+
+}
+
+.rose-petals {
+    position: absolute;
+    top: 2rem;
+    right: 12rem;
+    width: 420px;
+}
