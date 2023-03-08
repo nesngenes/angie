@@ -7,6 +7,8 @@ import facial from '../assets/facial.png'
 import fb from '../assets/fb.png'
 import ig from '../assets/ig.png'
 import joan from '../assets/joan.png'
+import leblanc from '../assets/leblanc.png'
+import dusex from '../assets/dusex.png'
 import mcquay from '../assets/mcquay.png'
 import tw from '../assets/tw.png'
 import roseMassage from '../assets/rose-massage.png'
@@ -15,6 +17,7 @@ import queensBath from '../assets/queens-bath.png'
 import bodyMassage from '../assets/body-massage.png'
 import scrub from '../assets/scrub.png'
 import rosePetals from '../assets/rose-petals.png'
+import arrow from '../assets/arrow.png'
 
 export default {
     landing,
@@ -33,5 +36,8 @@ export default {
     rosePetals,
     rose,
     joan,
-    mcquay
+    mcquay,
+    leblanc,
+    dusex,
+    arrow
 }

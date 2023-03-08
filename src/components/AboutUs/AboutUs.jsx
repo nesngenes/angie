@@ -12,7 +12,7 @@ const AboutUs = () => {
           <img src={images.AngieLogo} alt="" />
           <h1 className='main-heading'>Welcome to our Spa </h1>
         </div>
-        <div>
+        <div className='absolute-content'>
           <img className='rose-massage' src={images.roseMassage} alt="" />
           <img className='rose-bath' src={images.roseBath} alt="" />
           <div className='about-us'>

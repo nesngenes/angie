@@ -67,8 +67,8 @@ const Feedback = () => {
 
   const openBook = () => {
     book.current.style.transform = "translateX(50%)";
-    prevBtn.current.style.transform = "translateX(-200px)";
-    nextBtn.current.style.transform = "translateX(200px)";
+    prevBtn.current.style.transform = "translateX(-240px)";
+    nextBtn.current.style.transform = "translateX(240px)";
   }
 
   const closeBook = (isAtBegining) => {
@@ -88,7 +88,7 @@ const Feedback = () => {
 
       <div className='book-animation'>
         <button id='prev-button' onClick={prevPage} ref={prevBtn}>
-          Prev
+          <img src={images.arrow} alt="" />
         </button>
 
         <div className='book' ref={book}>
@@ -96,7 +96,7 @@ const Feedback = () => {
           <div className='paper' id='p1' ref={paper1}> 
             <div className='front'>
               <div id='f1' className='front-content'>
-                <h1>Open The Client Review Book &gt;	&gt;	</h1>
+                <h1>Open The Client Review Book </h1>
                 <img className='small-rose' src={images.roseHd} alt="" />
               </div>
             </div>
@@ -106,12 +106,12 @@ const Feedback = () => {
                 <div className='review'>
                   <h3>Joanne De Arc</h3>
                   <img src={images.joan} alt="joan" />
-                  <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                  <q>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</q>
                 </div>
                 <div className='review'>
-                <h3>Joanne De Arc</h3>
-                  <img src={images.joan} alt="joan" />
-                  <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <h3>Caitlyn Dusex</h3>
+                  <img src={images.dusex} alt="caitlyn" />
+                  <q>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</q>
                 </div>
               </div>
             </div>
@@ -120,13 +120,31 @@ const Feedback = () => {
           <div className='paper' id='p2' ref={paper2}> 
             <div className='front'>
               <div id='f2' className='front-content'>
-                <h1>Front 2</h1>
+                <div className='review'>
+                    <h3>Elena LeBlanc</h3>
+                    <img src={images.leblanc} alt="leblanc" />
+                    <q>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</q>
+                  </div>
+                  <div className='review'>
+                  <h3>Sarah McQuay</h3>
+                    <img src={images.mcquay} alt="mcquay" />
+                    <q>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</q>
+                  </div>
               </div>
             </div>
 
             <div className='back'>
               <div className='back-content' id='b2'>
-                <h1>Back 2</h1>
+                  <div className='review'>
+                    <h3>Elena LeBlanc</h3>
+                    <img src={images.leblanc} alt="leblanc" />
+                    <q>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</q>
+                  </div>
+                  <div className='review'>
+                  <h3>Sarah McQuay</h3>
+                    <img src={images.mcquay} alt="mcquay" />
+                    <q>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</q>
+                  </div>
               </div>
             </div>
           </div>
@@ -134,7 +152,16 @@ const Feedback = () => {
           <div className='paper' id='p3' ref={paper3}> 
             <div className='front'>
               <div id='f3' className='front-content'>
-                <h1>Front 3</h1>
+                <div className='review'>
+                    <h3>Elena LeBlanc</h3>
+                    <img src={images.leblanc} alt="leblanc" />
+                    <q>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</q>
+                  </div>
+                  <div className='review'>
+                  <h3>Sarah McQuay</h3>
+                    <img src={images.mcquay} alt="mcquay" />
+                    <q>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</q>
+                  </div>
               </div>
             </div>
 
@@ -148,7 +175,7 @@ const Feedback = () => {
         </div>
 
         <button id='next-button' onClick={nextPage} ref={nextBtn}>
-          Next
+          <img src={images.arrow} alt="" />
         </button>
       </div>
 

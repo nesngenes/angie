@@ -8,19 +8,23 @@
 }
 
 .about-content {
-    position: relative;
     overflow: hidden;
-    height: 110vh;
+}
+
+.absolute-content {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
 }
 
 .about-us {
     background-color: var(--color-white);
-    width: 500px;
+    width: 400px;
     padding: 4rem;
     color: var(--color-dark-brown);
     position: absolute;
-    top: 58%;
-    left: 45%;
+    top: 56%;
+    left: 41%;
     box-shadow: 20px 20px 0.7em;
 
 }
@@ -33,22 +37,26 @@
 }
 
 .about-us h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin: 1rem 0;
 }
 
 .about-us p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .rose-massage {
     position: absolute;
-    left: 14%;
-    top: 25%;
+    left: 16%;
+    top: 20%;
+    width: 500px;
 }
 
+
 .rose-bath {
-    left: 50%;
-    top: 20%;
+    width: 500px;
+    left: 44%;
+    top: 17%;
     position: absolute;
 }
+
