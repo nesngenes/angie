@@ -6,7 +6,7 @@ import './navbar.css'
 
 const Navbar = () => {
   return (
-    <div className='navbar'>
+    <div className='navbar' data-aos="fade-up">
       <img className='navbar-logo' src={images.AngieLogo} alt="angie-spa-logo" />
       <div className='navbar-menus'>
         <a>Home</a>

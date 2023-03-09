@@ -7,7 +7,7 @@ import {images} from '../../constants'
 const Footer = () => {
   return (
     <div className='footer'>
-      <div className='footer-content' id='ft-1'>
+      <div className='footer-content' id='ft-1' data-aos="fade-right" data-aos-duration="1000">
         <div className='angie-footer-logo'>
           <h3>Angie Spa</h3>
           <img src={images.rose} alt="rose" className='rose' />
@@ -17,7 +17,7 @@ const Footer = () => {
         <img src={images.tw} alt="tw" />
         <img src={images.fb} alt="fb" />
       </div>
-      <div className='footer-content' id='ft-2'>
+      <div className='footer-content' id='ft-2' data-aos="fade-up" data-aos-duration="1000">
         <h3>Services</h3>
         <p>Message</p>
         <p>Facial</p>
@@ -25,7 +25,7 @@ const Footer = () => {
         <p>Mask</p>
         <p>Others</p>
       </div>
-      <div className='footer-content' id='ft-3'>
+      <div className='footer-content' id='ft-3' data-aos="fade-up" data-aos-duration="1000">
         <h3>Quick Link</h3>
         <p>Home</p>
         <p>About</p>
