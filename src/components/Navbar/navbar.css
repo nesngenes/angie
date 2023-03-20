@@ -48,3 +48,47 @@
     background-color: var(--color-pink);
     cursor: pointer;
 }
+
+#humberger-menu {
+    width: 2rem;        
+    cursor: pointer;
+    display: none;
+}
+
+@media (max-width: 40em) {
+    .navbar {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .navbar-menus-mobile{
+        display: grid;
+        width: 12rem;
+        text-align: center;
+        grid-row: 2;
+        margin-top: 3rem;
+        margin: auto;
+        font-size: large;
+        grid-column: 1/4;
+        margin-bottom: 5rem;
+    }
+
+    .navbar-menus {
+        display: none;
+    }
+
+    .navbar-menus-mobile > * {
+        margin: 1rem 0;
+    }
+    .navbar-sosmed {
+        display: none;
+    }
+
+    #humberger-menu {
+        grid-column: 3;
+        margin-left: auto;
+        display: block;
+    }
+    .navbar-logo {
+        width: 2rem;
+    }
+}

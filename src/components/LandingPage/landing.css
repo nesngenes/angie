@@ -60,3 +60,32 @@
     background-color: var(--color-white);
     color: var(--color-pink);
 }
+
+@media (max-width: 40em) {
+    .landing-page {
+        height: 550px;
+    }
+    .landing-page-main {
+        padding: 1.5rem;
+        top: 10%;
+    }
+
+    .landing-page-main h1 {
+        font-size: 2rem;
+        padding: 1rem 2rem;
+    }
+
+    .landing-page-main h2 {
+        font-size: 1rem;
+        position: relative;
+        left: 18%;
+        width: 80%;
+    }
+    
+    .book-now-button,
+    .explore-button {
+        margin-right: 2rem;
+        padding: 0.5rem 1rem;
+        left: 7rem;
+    }
+}

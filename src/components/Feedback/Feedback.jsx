@@ -167,7 +167,7 @@ const Feedback = () => {
 
             <div className='back'>
               <div className='back-content' id='b3'>
-                <img src={images.roseHd} alt="" />
+                <img className='rose-big' src={images.roseHd} alt="" />
               </div>
             </div>
           </div>

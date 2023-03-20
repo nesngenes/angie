@@ -69,3 +69,104 @@
     right: 12rem;
     width: 420px;
 }
+
+@media (max-width: 40em) {
+    .services-page h1 {
+        padding: 0;
+        padding-top: 4rem;
+        font-size: 2rem;
+        width: 100%;
+        margin-bottom: 7rem;
+    }
+
+    .services-page {
+        text-align: center;
+
+    }
+    .services-content {
+        grid-template-columns: 1fr;
+    }
+    .services-content img {
+        width: 200px;
+    }
+
+    .services-content img:nth-child(1),
+    .services-content img:nth-child(4) {
+        width: 300px;
+    }
+
+    .service {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        width: 100%;
+    }
+
+    .service:nth-child(1) {
+        margin-bottom: 3rem;
+    }
+    
+    .service p {
+        grid-column: 1;
+        font-size: 12px;
+        width: 80%;
+        margin-inline: auto;
+    }
+
+    .service h3 {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .service img {
+        grid-column: 2;
+        margin: 1rem;
+    }
+
+    .service:nth-child(2), 
+    .service:nth-child(5) {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+
+    }  
+
+    .service:nth-child(2) img, 
+    .service:nth-child(5) img{
+        place-items: center;
+        grid-column: 1/2;
+        margin-inline: auto;
+    }
+
+    .service:nth-child(2) p, 
+    .service:nth-child(5) p{
+        width: 60%;
+    }
+
+    .service:nth-child(6) img {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .all-service-button,
+    .appoinment-button {
+        display: none;
+    }
+
+    .service:nth-child(6) {
+        grid-row: 3;
+        margin-bottom: 3rem;
+    }
+
+    .batu-bunga {
+        width: 10rem;
+    }
+
+    .rose-petals {
+        position: absolute;
+        top: 10rem;
+        right: 15rem;
+        width: 150px;
+    }
+}

@@ -60,3 +60,56 @@
     position: absolute;
 }
 
+
+@media (max-width: 40em) {
+    .main-heading {
+        font-size: 2rem;
+        width: 100%;
+        margin-bottom: 4rem;
+    }
+    .about-page {
+        padding: 6rem 0;
+        height: auto;
+    }
+
+    .rose-massage {
+        width: 300px;
+        position: unset;
+        grid-row: 1;
+    }
+
+    .rose-bath {
+        position: unset;
+        grid-row: 3;
+        width: 300px;
+
+    }
+
+    .about-us{
+        position: unset;
+        grid-row: 2;
+        width: 350px;
+        padding: 2.8rem 1rem;
+        box-shadow: none;
+    }
+
+    .about-us h2 {
+        font-size: 1.2rem;
+        margin: 1rem 0;
+    }
+    
+    .about-us p {
+        font-size: 1rem;
+    }
+
+    .absolute-content{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        place-items: center;
+        gap: 0;
+    }
+
+    .about-content {
+        height: 120vh;
+    }
+}

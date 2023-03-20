@@ -18,6 +18,7 @@ import bodyMassage from '../assets/body-massage.png'
 import scrub from '../assets/scrub.png'
 import rosePetals from '../assets/rose-petals.png'
 import arrow from '../assets/arrow.png'
+import mobileMenu from '../assets/mobileMenu.png'
 
 export default {
     landing,
@@ -39,5 +40,6 @@ export default {
     mcquay,
     leblanc,
     dusex,
-    arrow
+    arrow,
+    mobileMenu
 }
