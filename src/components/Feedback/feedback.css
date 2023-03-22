@@ -197,47 +197,6 @@
     .feedback-page {
         padding: 2rem;
         padding-bottom: 0;
-    }
-
-    .rose-big {
-        width: 1rem;
-    }
-    
-    .book {
-        width: 350px;
-        height: 400px;
-        grid-row: 1;
-        margin: 0;
-    }
-
-    .book-animation {
-        display: grid;
-        grid-template-rows: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
-        gap: 0;
-    }
-    .feedback-page button img {
-        width: 2rem;
-    }
-
-    .book-animation > * {
-        margin: 0;
-    }
-    
-    #prev-button {
-        transform: translateX(0px);
-        grid-row: 2;
-        grid-column: 1;
-        margin-right: auto;
-    }
-    
-    #prev-button img {
-        transform: scaleX(-1);
-    }
-    
-    #next-button {
-        transform: translateX(0px);
-        grid-row: 2;
-        grid-column: 2;
+        display: none;
     }
 }
